@@ -13,3 +13,9 @@
 [submodule "site/pack/plugins/start/vim-unimpaired"]
 	path = site/pack/plugins/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired
+[submodule "site/pack/plugins/start/telescope.nvim"]
+	path = site/pack/plugins/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim
+[submodule "site/pack/plugins/start/plenary.nvim"]
+	path = site/pack/plugins/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
