@@ -10,3 +10,6 @@
 [submodule "site/pack/syntax/start/nvim-lsp-ts-utils"]
 	path = site/pack/plugins/start/nvim-lsp-ts-utils
 	url = https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils
+[submodule "site/pack/plugins/start/vim-unimpaired"]
+	path = site/pack/plugins/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired
