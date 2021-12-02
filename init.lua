@@ -17,6 +17,13 @@ vim.api.nvim_set_keymap('n', '<leader>q', ':q<cr>', {noremap = true})
 -- clear highlighting with space
 vim.api.nvim_set_keymap('n', '<space>', ':nohlsearch<cr>', {noremap = true})
 
+-- telescope
+vim.api.nvim_set_keymap('n', '<leader>ff', '<cmd>Telescope find_files<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telecope live_grep<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>fb', '<cmd>Telescope buffers<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>fo', '<cmd>Telescope oldfiles<cr>', {noremap = true})
+
 local on_attach = function(client, bufnr)
 	local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
 	local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
