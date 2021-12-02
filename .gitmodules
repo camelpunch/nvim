@@ -1,3 +1,6 @@
 [submodule "site/pack/syntax/start/vim-elixir"]
 	path = site/pack/syntax/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir
+[submodule "site/pack/syntax/start/nvim-lspconfig"]
+	path = site/pack/syntax/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig
