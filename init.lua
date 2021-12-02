@@ -24,6 +24,14 @@ vim.api.nvim_set_keymap('n', '<leader>fb', '<cmd>Telescope buffers<cr>', {norema
 vim.api.nvim_set_keymap('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<leader>fo', '<cmd>Telescope oldfiles<cr>', {noremap = true})
 
+-- vim-test
+vim.api.nvim_command('let test#strategy = "neovim"')
+vim.api.nvim_set_keymap('n', '<F11>', ':TestNearest<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F12>', ':TestFile<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F10>', ':TestLast<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F9>', ':TestVisit<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F8>', ':TestSuite<cr>', {noremap = true})
+
 local on_attach = function(client, bufnr)
 	local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
 	local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
