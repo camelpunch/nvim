@@ -2,12 +2,20 @@ local lsp = require 'lspconfig'
 
 vim.opt.mouse = 'a'
 vim.opt.number = true
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","
 
 -- ctrl-hjkl pane movement
 vim.api.nvim_set_keymap('n', '<c-h>', '<c-w>h', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-j>', '<c-w>j', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-k>', '<c-w>k', {noremap = true})
 vim.api.nvim_set_keymap('n', '<c-l>', '<c-w>l', {noremap = true})
+
+-- quick quit buffer
+vim.api.nvim_set_keymap('n', '<leader>q', ':q<cr>', {noremap = true})
+
+-- clear highlighting with space
+vim.api.nvim_set_keymap('n', '<space>', ':nohlsearch<cr>', {noremap = true})
 
 local on_attach = function(client, bufnr)
 	local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
