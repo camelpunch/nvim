@@ -1,12 +1,12 @@
 [submodule "site/pack/syntax/start/vim-elixir"]
-	path = site/pack/syntax/start/vim-elixir
+	path = site/pack/plugins/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir
 [submodule "site/pack/syntax/start/nvim-lspconfig"]
-	path = site/pack/syntax/start/nvim-lspconfig
+	path = site/pack/plugins/start/nvim-lspconfig
 	url = https://github.com/neovim/nvim-lspconfig
 [submodule "site/pack/syntax/start/null-ls"]
-	path = site/pack/syntax/start/null-ls
+	path = site/pack/plugins/start/null-ls
 	url = https://github.com/jose-elias-alvarez/null-ls.nvim
 [submodule "site/pack/syntax/start/nvim-lsp-ts-utils"]
-	path = site/pack/syntax/start/nvim-lsp-ts-utils
+	path = site/pack/plugins/start/nvim-lsp-ts-utils
 	url = https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils
