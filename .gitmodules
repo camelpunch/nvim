@@ -22,3 +22,6 @@
 [submodule "site/pack/plugins/start/vim-test"]
 	path = site/pack/plugins/start/vim-test
 	url = https://github.com/vim-test/vim-test
+[submodule "site/pack/plugins/start/vim-fugitive"]
+	path = site/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
