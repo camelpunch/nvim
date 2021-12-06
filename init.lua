@@ -32,6 +32,9 @@ vim.api.nvim_set_keymap('n', '<F10>', ':TestLast<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<F9>', ':TestVisit<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<F8>', ':TestSuite<cr>', {noremap = true})
 
+-- format before save
+vim.api.nvim_command("au BufWritePre *.ex,*.exs lua vim.lsp.buf.formatting_sync()")
+
 local on_attach = function(client, bufnr)
 	local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
 	local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
