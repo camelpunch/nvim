@@ -25,3 +25,9 @@
 [submodule "site/pack/plugins/start/vim-fugitive"]
 	path = site/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "site/pack/plugins/start/idris2-vim"]
+	path = site/pack/plugins/start/idris2-vim
+	url = https://github.com/edwinb/idris2-vim.git
+[submodule "site/pack/plugins/start/vim-commentary"]
+	path = site/pack/plugins/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary
