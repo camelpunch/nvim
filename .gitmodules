@@ -31,3 +31,6 @@
 [submodule "site/pack/plugins/start/vim-commentary"]
 	path = site/pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "site/pack/plugins/start/vim-gitgutter"]
+	path = site/pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
