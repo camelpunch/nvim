@@ -37,3 +37,6 @@
 [submodule "site/pack/plugins/start/vim-hcl"]
 	path = site/pack/plugins/start/vim-hcl
 	url = https://github.com/jvirtanen/vim-hcl
+[submodule "site/pack/plugins/start/Dockerfile"]
+	path = site/pack/plugins/start/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim
