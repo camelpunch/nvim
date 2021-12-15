@@ -29,9 +29,9 @@ vim.api.nvim_set_keymap('n', '<leader>fo', '<cmd>Telescope oldfiles<cr>', {norem
 vim.api.nvim_command('let test#strategy = "neovim"')
 vim.api.nvim_set_keymap('n', '<F11>', ':w<cr>:TestNearest<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<F12>', ':w<cr>:TestFile<cr>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<F10>', ':TestLast<cr>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<F9>', ':TestVisit<cr>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<F8>', ':TestSuite<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F10>', ':w<cr>:TestLast<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F9>', ':w<cr>:TestVisit<cr>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<F8>', ':w<cr>:TestSuite<cr>', {noremap = true})
 
 -- format before save
 vim.api.nvim_command("au BufWritePre *.ex,*.exs,*.ts,*.js lua vim.lsp.buf.formatting_sync()")
