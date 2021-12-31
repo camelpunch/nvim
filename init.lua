@@ -74,3 +74,4 @@ lsp.tsserver.setup {
 	on_attach = on_attach,
 }
 lsp.idris2_lsp.setup {}
+lsp.terraform_lsp.setup {}
