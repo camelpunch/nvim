@@ -75,3 +75,5 @@ lsp.tsserver.setup {
 }
 lsp.idris2_lsp.setup {}
 lsp.terraform_lsp.setup {}
+lsp.tailwindcss.setup{}
+
