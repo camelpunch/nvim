@@ -40,3 +40,6 @@
 [submodule "site/pack/plugins/start/Dockerfile"]
 	path = site/pack/plugins/start/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim
+[submodule "site/pack/plugins/start/suda"]
+	path = site/pack/plugins/start/suda
+	url = https://github.com/lambdalisue/suda.vim/
