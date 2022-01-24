@@ -43,3 +43,6 @@
 [submodule "site/pack/plugins/start/suda"]
 	path = site/pack/plugins/start/suda
 	url = https://github.com/lambdalisue/suda.vim/
+[submodule "site/pack/plugins/start/vim-gnupg"]
+	path = site/pack/plugins/start/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg.git
