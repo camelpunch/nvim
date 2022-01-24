@@ -46,3 +46,6 @@
 [submodule "site/pack/plugins/start/vim-gnupg"]
 	path = site/pack/plugins/start/vim-gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
+[submodule "site/pack/plugins/start/vim-terraform"]
+	path = site/pack/plugins/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform
