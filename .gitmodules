@@ -49,3 +49,6 @@
 [submodule "site/pack/plugins/start/vim-terraform"]
 	path = site/pack/plugins/start/vim-terraform
 	url = https://github.com/hashivim/vim-terraform
+[submodule "site/pack/plugins/start/vim-shellcheck"]
+	path = site/pack/plugins/start/vim-shellcheck
+	url = https://github.com/itspriddle/vim-shellcheck
