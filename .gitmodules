@@ -52,3 +52,6 @@
 [submodule "site/pack/plugins/start/vim-shellcheck"]
 	path = site/pack/plugins/start/vim-shellcheck
 	url = https://github.com/itspriddle/vim-shellcheck
+[submodule "site/pack/plugins/start/vim-surround"]
+	path = site/pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround
