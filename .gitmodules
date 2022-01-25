@@ -55,3 +55,6 @@
 [submodule "site/pack/plugins/start/vim-surround"]
 	path = site/pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "site/pack/plugins/start/vim-repeat"]
+	path = site/pack/plugins/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
