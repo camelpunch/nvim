@@ -37,7 +37,7 @@ vim.api.nvim_set_keymap('n', '<F9>', ':w<cr>:TestVisit<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<F8>', ':w<cr>:TestSuite<cr>', {noremap = true})
 
 -- format before save
-vim.api.nvim_command("au BufWritePre *.ex,*.exs,*.ts,*.js lua vim.lsp.buf.formatting_sync()")
+vim.api.nvim_command("au BufWritePre *.ex,*.exs,*.ts,*.js,*.jsx lua vim.lsp.buf.formatting_sync()")
 
 local on_attach = function(client, bufnr)
 	local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
