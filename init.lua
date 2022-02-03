@@ -4,6 +4,10 @@ vim.opt.mouse = 'a'
 vim.opt.number = true
 vim.g.mapleader = ","
 vim.g.maplocalleader = ","
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
+vim.opt.expandtab = true
 
 -- ctrl-hjkl pane movement
 vim.api.nvim_set_keymap('n', '<c-h>', '<c-w>h', {noremap = true})
