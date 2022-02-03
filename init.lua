@@ -77,6 +77,9 @@ lsp.elixirls.setup {
 lsp.tsserver.setup {
 	on_attach = on_attach,
 }
+lsp.eslint.setup {
+  on_attach = on_attach,
+}
 lsp.idris2_lsp.setup {}
 lsp.terraform_lsp.setup {}
 vim.g.terraform_fmt_on_save = "1"
