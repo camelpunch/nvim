@@ -83,5 +83,5 @@ lsp.eslint.setup {
 lsp.idris2_lsp.setup {}
 lsp.terraform_lsp.setup {}
 vim.g.terraform_fmt_on_save = "1"
-lsp.tailwindcss.setup{}
-
+lsp.tailwindcss.setup {}
+lsp.rls.setup {}
