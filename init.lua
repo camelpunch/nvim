@@ -8,6 +8,7 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
 vim.opt.expandtab = true
+vim.o.wrap = false
 
 -- ctrl-hjkl pane movement
 vim.api.nvim_set_keymap('n', '<c-h>', '<c-w>h', {noremap = true})
