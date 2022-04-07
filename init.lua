@@ -67,21 +67,28 @@ local on_attach = function(client, bufnr)
 	buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
 	buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
 	buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
-
 end
 
 lsp.elixirls.setup {
 	on_attach = on_attach,
 	cmd = { "/home/andrew/workspace/elixir-ls/andrews-release/language_server.sh" };
 }
+
 lsp.tsserver.setup {
 	on_attach = on_attach,
 }
+
 lsp.eslint.setup {
   on_attach = on_attach,
 }
+
 lsp.idris2_lsp.setup {}
+
 lsp.terraform_lsp.setup {}
 vim.g.terraform_fmt_on_save = "1"
+
 lsp.tailwindcss.setup {}
-lsp.rls.setup {}
+
+lsp.rls.setup {
+  on_attach = on_attach,
+}
