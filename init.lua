@@ -90,6 +90,6 @@ vim.g.terraform_fmt_on_save = "1"
 
 lsp.tailwindcss.setup {}
 
-lsp.rls.setup {
+lsp.rust_analyzer.setup {
   on_attach = on_attach,
 }
