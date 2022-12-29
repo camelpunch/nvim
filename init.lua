@@ -1,5 +1,7 @@
 local lsp = require 'lspconfig'
 
+vim.api.nvim_exec([[ autocmd vimenter * ++nested colorscheme gruvbox ]], false)
+
 vim.opt.termguicolors = true
 vim.opt.mouse = 'a'
 vim.opt.number = true
