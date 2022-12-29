@@ -1,5 +1,6 @@
 local lsp = require 'lspconfig'
 
+vim.opt.termguicolors = true
 vim.opt.mouse = 'a'
 vim.opt.number = true
 vim.g.mapleader = ","
