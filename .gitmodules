@@ -61,3 +61,6 @@
 [submodule "site/pack/plugins/start/gruvbox"]
 	path = site/pack/plugins/start/gruvbox
 	url = https://github.com/morhetz/gruvbox/
+[submodule "site/pack/plugins/start/vim-nix"]
+	path = site/pack/plugins/start/vim-nix
+	url = https://github.com/LnL7/vim-nix.git
