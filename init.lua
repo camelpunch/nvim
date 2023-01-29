@@ -80,7 +80,7 @@ end
 
 lsp.elixirls.setup {
   on_attach = on_attach,
-  cmd = { "/home/andrew/workspace/elixir-ls/andrews-release/language_server.sh" };
+  cmd = { "elixir-ls" };
 }
 
 lsp.tsserver.setup {
