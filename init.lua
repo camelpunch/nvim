@@ -40,6 +40,9 @@ vim.api.nvim_set_keymap('n', '<F10>', ':w<cr>:TestLast<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<F9>', ':w<cr>:TestVisit<cr>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<F8>', ':w<cr>:TestSuite<cr>', {noremap = true})
 
+-- sort lists inside []
+vim.api.nvim_set_keymap('n', '<F5>', '!i[sort<cr>', {noremap = true})
+
 -- format before save
 vim.api.nvim_create_autocmd('BufWritePre', {
   callback = function()
